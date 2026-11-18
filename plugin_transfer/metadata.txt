@@ -1,0 +1,19 @@
+[general]
+name=Plugin Transfer
+version=1.0.0
+qgisMinimumVersion=3.40.6
+qgisMaximumVersion=3.44.99
+author=JulienH77
+email=julien.houziaux77183@gmail.com
+description=Back up selected QGIS user plugins to a ZIP file and restore them in another profile.
+description[fr]=Sauvegardez les extensions de votre choix dans un ZIP et restaurez-les dans un autre profil QGIS.
+about=Transfer locally installed Python plugins between QGIS profiles or computers. Optionally restore their enabled states and back up existing versions before replacement. French interface. No external dependencies. Third-party dependencies and plugin preferences are not included.
+about[fr]=Transférez les extensions Python installées dans votre profil QGIS vers un autre profil ou ordinateur. Vous pouvez rétablir leur état activé ou désactivé. En cas de remplacement, la version précédente est sauvegardée. Les préférences et dépendances externes sont à transférer séparément.
+homepage=https://github.com/JulienH77/plugin-transfer#readme
+repository=https://github.com/JulienH77/plugin-transfer
+tracker=https://github.com/JulienH77/plugin-transfer/issues
+icon=icon.svg
+tags=backup,restore,migration,plugins,profiles
+experimental=False
+deprecated=False
+changelog=1.0.0 - First public release. Selective ZIP backup, batch restore, optional activation states and backups before replacement.
